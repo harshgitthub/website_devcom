@@ -1,0 +1,125 @@
+.l1{
+    color: aqua;
+    padding-right: 10px;
+    margin-top: 200px;
+    margin-left: 15px;
+    z-index: 1;
+    position: fixed;
+
+}
+.l2{
+    color: aqua;
+    padding-right: 10px;
+    margin-top: 200px;
+    margin-left: 160px;
+    position: fixed;
+}
+.l3{
+    padding-right: 10px;
+    margin-top: 200px;
+    margin-left: 90px;
+    z-index: 1;
+    position:fixed;
+
+}
+
+body{
+    background-attachment: fixed;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+#nav1{
+    text-align: right;
+    font-family: cursive;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    background-attachment: fixed;
+}
+
+
+#h4{
+    padding-top: 50px;
+    z-index: 1;
+    color: orange;
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    position: relative ;
+}
+video{
+    height: auto;
+    position: fixed;
+    z-index: 0;
+    margin-top: 0px;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.list{
+    z-index: 1;
+    position: relative;
+    color: red;
+    font-family: cursive;
+
+}
+
+
+.h2{
+    border-radius: 20%;
+    text-decoration: none;
+    text-align: right;
+    margin-left: 10px;
+    padding-right: 10px;
+    border:none;
+    position:relative;
+}
+.h1{
+    z-index: 0;
+    border-radius: 20%;
+    text-decoration: none;
+    text-align: right;
+    margin-left: 10px;
+    padding-right: 5px;
+    border:none;
+    position:relative;
+}
+
+.h3{
+    border-radius: 20%;
+    text-decoration: none;
+    text-align: right;
+    margin-left: 10px;
+    padding-right: 10px;
+    border:none;
+    position:relative;
+}
+.h1:hover{
+    background-color: white;
+    border-style: solid;
+    border-radius: 0px;
+}
+
+.h2:hover{
+    background-color: white;
+    border-style: solid;
+    border-radius: 0px;
+}
+
+.h3:hover{
+    background-color: white;
+    border-style: solid;
+    border-radius: 0px;
+}
+p{
+    color: orange;
+    font-size: 26px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}

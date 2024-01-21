@@ -1,0 +1,70 @@
+div{
+    z-index: 0;
+    position: fixed;
+    max-width: 100%;
+    height: auto;
+}
+#form_1{
+    z-index: 1;
+    position: relative;
+    color: cadetblue;
+
+}
+
+#nav1{
+    text-align: right;
+    font-family : cursive;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    background-attachment: scroll;
+}
+
+.h2{
+    border-radius: 20%;
+    text-decoration: none;
+    text-align: right;
+    margin-left: 10px;
+    padding-right: 10px;
+    border:none;
+    position:relative;
+}
+
+.h1{
+    z-index: 0;
+    border-radius: 20%;
+    text-decoration: none;
+    text-align: right;
+    margin-left: 10px;
+    padding-right: 5px;
+    border:none;
+    position:relative;
+}
+
+.h3{
+    border-radius: 20%;
+    text-decoration: none;
+    text-align: right;
+    margin-left: 10px;
+    padding-right: 10px;
+    border:none;
+    position:relative;
+}
+.h1:hover{
+    background-color: white;
+    border-style: solid;
+    border-radius: 0px;
+}
+
+.h2:hover{
+    background-color: white;
+    border-style: solid;
+    border-radius: 0px;
+}
+
+.h3:hover{
+    background-color: white;
+    border-style: solid;
+    border-radius: 0px;
+}

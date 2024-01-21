@@ -1,0 +1,107 @@
+.nav1{
+    text-align: right;
+    font-family : cursive;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    background-attachment: scroll;
+}
+
+#h2{
+    border-radius: 20%;
+    text-decoration: none;
+    text-align: right;
+    margin-left: 10px;
+    padding-right: 10px;
+    border:none;
+    position:relative;
+    cursor:pointer;
+}
+
+#h1{
+    z-index: 0;
+    border-radius: 20%;
+    text-decoration: none;
+    text-align: right;
+    margin-left: 10px;
+    padding-right: 5px;
+    border:none;
+    position:relative;
+}
+
+#h3{
+    border-radius: 20%;
+    text-decoration: none;
+    text-align: right;
+    margin-left: 10px;
+    padding-right: 10px;
+    border:none;
+    position:relative;
+}
+
+#v1{
+    position: absolute;
+    max-width: 100%;
+    position: fixed;
+    height: auto;
+}
+
+
+.intro{
+    margin-top: 15%;
+    position: absolute;
+    color: white;
+}
+.para {
+    border-right: 2px solid orangered;
+    width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 10s steps(200, end) infinite forwards;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 100%;
+    }
+}
+
+#p1{
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 15px;
+    z-index: 1;
+    cursor:pointer;
+}
+
+body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+#h1:hover{
+    background-color: white;
+    border-style: solid;
+    border-radius: 0px;
+}
+
+#h2:hover{
+    background-color: white;
+    border-style: solid;
+    border-radius: 0px;
+}
+
+#h3:hover{
+    background-color: white;
+    border-style: solid;
+    border-radius: 0px;
+}
